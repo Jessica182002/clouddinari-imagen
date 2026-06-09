@@ -1,0 +1,20 @@
+{
+  "name": "cloudinary-vercel-ejercicio",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "cloudinary": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "multer": "latest",
+    "streamifier": "latest"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
